@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# S. M. Moinul Islam — Developer Portfolio
+
+A production-ready personal developer portfolio for **S. M. Moinul Islam**, a Computer Science and Engineering undergraduate and aspiring Junior Frontend / Full-stack Developer from Jashore, Bangladesh.
+
+Built with Next.js 16 (App Router), React 19, TypeScript (strict mode), and Tailwind CSS v4 using a monochromatic dark-blue and white design system.
+
+---
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, Server Components by default)
+- **Library**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with custom design tokens
+- **Icons**: [Lucide React](https://lucide.dev/) + inline brand SVG icons
+- **SEO & Structured Data**: Next.js Metadata API, dynamic Open Graph images (`next/og`), Schema.org JSON-LD (`Person`, `WebSite`)
+
+---
+
+## Featured Projects
+
+1. **Bazardor — Daily Market Price Tracker**
+   - Live: [bazardor-app-xi.vercel.app](https://bazardor-app-xi.vercel.app/)
+   - Code: [moinul-islam-dev/bazardor-assignment-07](https://github.com/moinul-islam-dev/bazardor-assignment-07)
+   - Stack: Next.js, TypeScript, Better Auth, MongoDB, Tailwind CSS, HeroUI
+
+2. **FitLog — Workout Companion**
+   - Live: [my-fit-log.netlify.app](https://my-fit-log.netlify.app/)
+   - Code: [moinul-islam-dev/Fit-Log](https://github.com/moinul-islam-dev/Fit-Log)
+   - Stack: Next.js, React, Context API, DaisyUI, Tailwind CSS, TypeScript
+
+3. **BPL Player Marketplace**
+   - Live: [silly-cat-c17295.netlify.app](https://silly-cat-c17295.netlify.app/)
+   - Code: [moinul-islam-dev/bpl-player-marketplace](https://github.com/moinul-islam-dev/bpl-player-marketplace)
+   - Stack: React, Tailwind CSS, Vite, HTML5, CSS3
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ (tested with Node v20)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/zubaerisla-create/mi.git
+cd mi
+npm install
+```
+
+### Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Configure the canonical production site URL:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```env
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT © S. M. Moinul Islam
