@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { GithubIcon } from "@/components/ui/BrandIcons";
 import { projects } from "@/data/projects";
 import { ExternalLink, CheckCircle2, Layers } from "lucide-react";
+import Link from "next/link";
 
 export function ProjectsSection() {
   return (
@@ -149,7 +150,7 @@ export function ProjectsSection() {
                       </div>
 
                       {/* Project Screenshot */}
-                      <a
+                      <Link
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -164,7 +165,7 @@ export function ProjectsSection() {
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 700px"
                           className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
